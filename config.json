@@ -1,0 +1,22 @@
+{
+	"db": {
+		"type" : "mysql",
+		"host" : "localhost",
+		"user" : "root",
+		"pass" : "666666",
+		"dbname" : "fw"
+	},
+	"path": {
+		"core" : "core",
+		"application" : {
+			"main" : "application/",
+			"controllers" : "application/controllers/",
+			"models" : "application/models/",
+			"views" : "application/views/"
+		}
+	},
+	"autoloader": {
+		"directories" : ["./core/"],
+		"fileFormats" : ["%s.php", "%s.class.php", "class.%s.php", "%s.inc.php"]
+	}
+}

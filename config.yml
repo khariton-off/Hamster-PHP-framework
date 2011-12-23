@@ -1,0 +1,21 @@
+# Database
+db:
+  type: mysql
+  host: localhost
+  user: root
+  pass: 666666
+  dbname: fw
+
+# System pathes
+path:
+  core: core
+  application:
+    main: application/
+    controllers: application/controllers/
+    models: application/models/
+    views: application/views/
+
+# Autoloader 
+autoloader:
+  directories: ['./core/']
+  fileFormats: ['%s.php', '%s.class.php', 'class.%s.php', '%s.inc.php']
